@@ -15,7 +15,7 @@ thickness = 0.01
 count = 1
 while True:
     thickness *= 2
-    count += 1
     if thickness > 8844430:
         break
+    count += 1
 print("对折" + str(count) + "次")
