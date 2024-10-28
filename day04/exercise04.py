@@ -31,5 +31,5 @@ four_planets_list.remove("海王星")
 del four_planets_list[4]
 print(four_planets_list)
 
-for item in range(len(four_planets_list)):
-    print(four_planets_list[::-1][item])
+for item in four_planets_list[::-1]:
+    print(item)
